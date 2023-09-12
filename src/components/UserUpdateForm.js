@@ -94,7 +94,7 @@ const UserUpdateForm = ({ isModalOpen, closeModal, userUpdateModel }) => {
                                 value={formData.displayName}
                                 onChange={handleInputChange}
                                 isInvalid={formErrors['displayName']}
-                                required
+                                
                             />
                             <Form.Control.Feedback type="invalid">
                                 {formErrors['displayName']}
@@ -109,7 +109,7 @@ const UserUpdateForm = ({ isModalOpen, closeModal, userUpdateModel }) => {
                                 value={formData.firstName}
                                 onChange={handleInputChange}
                                 isInvalid={formErrors['firstName']}
-                                required
+                                
                             />
                             <Form.Control.Feedback type="invalid">
                                 {formErrors['firstName']}
@@ -123,7 +123,7 @@ const UserUpdateForm = ({ isModalOpen, closeModal, userUpdateModel }) => {
                                 value={formData.lastName}
                                 onChange={handleInputChange}
                                 isInvalid={formErrors['lastName']}
-                                required
+                               
                             />
                             <Form.Control.Feedback type="invalid">
                                 {formErrors['lastName']}

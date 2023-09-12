@@ -61,8 +61,11 @@ const MyNavbar = () => {
     } else if (pathname.match(/^\/u\/[^/]+/)) {
       setIcon("fa-solid fa-address-card");
       setCurrentMenu(params.username);
-    } else {
-
+    } else if (pathname.includes('/search')) { // Eğer "search" kelimesi URL içinde geçiyorsa
+      setIcon("fa-solid fa-search"); // İstenilen ikonu ayarlayabilirsiniz
+      setCurrentMenu('Search'); // Menüyü "Search" olarak ayarlayabilirsiniz
+    } 
+    else {
       setCurrentMenu('default');
     }
   }, [location.pathname, params, icon]);

@@ -75,7 +75,7 @@ textarea {
   resize: vertical;
 }
 
-.error {
+.submit-error {
   margin-bottom: 5px;
   border: none;
   color: red;

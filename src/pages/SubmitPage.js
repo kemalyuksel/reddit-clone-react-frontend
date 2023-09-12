@@ -162,9 +162,9 @@ const SubmitPage = () => {
                                     </Row>
 
                                     <Form.Group className="p-2 mt-3">
-                                        {errorMessage.title && <div className={errorMessage.title ? 'error' : ''}>{errorMessage.title}</div>}
+                                        {errorMessage.title && <div className={errorMessage.title ? 'submit-error' : ''}>{errorMessage.title}</div>}
                                         <Form.Control required placeholder="Title" type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
-                                        {errorMessage.description && <div className={errorMessage.description ? 'error' : ''}>{errorMessage.description}</div>}
+                                        {errorMessage.description && <div className={errorMessage.description ? 'submit-error' : ''}>{errorMessage.description}</div>}
                                         {descriptionType === 'TEXT' ? (
                                             <Form.Control required as="textarea" rows={5} placeholder="Enter description" value={description} onChange={(e) => setDescription(e.target.value)} />
                                         ) : (
