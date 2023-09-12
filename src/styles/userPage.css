@@ -1,0 +1,19 @@
+/* Tab Link Styles */
+#custom-tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border: none;
+    color: #0079D3 ; /* Active tab text color */
+    font-weight: 500;
+    border-bottom: 2px solid #0079D3 !important; /* Underline color for active tab */
+}
+
+#custom-tabs .nav-tabs .nav-link {
+    border: none;
+    color: #000; /* Inactive tab text color */
+}
+
+#custom-tabs .nav-tabs .nav-link:hover {
+    border: none;
+    font-weight: 500;
+    color: #0079D3 ; /* Tab text color on hover */
+    background-color: transparent !important;
+}

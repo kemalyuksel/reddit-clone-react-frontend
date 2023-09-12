@@ -1,0 +1,80 @@
+.subreddit-page {
+  background-color: #d8e3e2; /* Reddit'in gri rengi */
+  min-height: 100vh;
+}
+
+.subreddit-container {
+  max-width: 975px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.background {
+  background-size: cover;
+  min-height: 384px;
+  max-height: 384px;
+  min-width: 100%;
+}
+
+.subreddit-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 700px;
+  margin-left: 190px;
+}
+
+.subreddit-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: -30px;
+  border: solid white;
+  background-color: black;
+}
+
+.subreddit-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+
+
+.subreddit-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: -40px;
+  margin-left: 10px;
+}
+
+.join-button {
+  margin-left: auto;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  background-color: #0079d3;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-family: Noto Sans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: unset;
+  line-height: 17px;
+  text-transform: unset;
+  min-height: 32px;
+  min-width: 32px;
+  padding: 4px 16px;
+}
+
+.about-community-title {
+  color: white;
+  padding: 5px;
+  margin-left: 10px;
+}

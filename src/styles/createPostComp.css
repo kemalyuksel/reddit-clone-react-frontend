@@ -1,0 +1,63 @@
+.user-post-card {
+    background-color: #FFFFFF; /* Beyaz arka plan */
+    display: flex;
+    align-items: center;
+    border: 1px solid #CCCCCC; /* Açık gri çerçeve */
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding: 8px;
+    margin-top: 20px;
+  }
+  
+  .user-image {
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e7e3e3;
+    overflow: hidden;
+  }
+  
+  .user-avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .create-post {
+    flex: 1;
+    margin: 0 8px;
+  }
+  
+  .post-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #F8F9FA; /* Açık gri arka plan */
+    font-family: "IBM Plex Sans", Arial, sans-serif;
+  }
+
+  .post-input:hover{
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid cornflowerblue;
+  }
+  
+  .icons {
+    flex: 0 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .icon {
+    cursor: pointer;
+    color: #888888; /* Gri renk */
+  }
+  
+  .icon:hover {
+    color: #FF4500; /* Turuncu renk */
+  }

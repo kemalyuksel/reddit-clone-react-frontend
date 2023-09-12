@@ -1,0 +1,72 @@
+
+.logo{
+  margin-left: 10px;    
+}
+
+.bg-body-tertiary {
+  height: 49px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar-top{
+  position: fixed;
+  top: 0; /* Navbar'ı yukarı sabitle */
+  background-color: #F8F9FA; /* İstediğiniz arkaplan rengi */
+  display: flex;
+  border-bottom: 1px solid rgb(255, 255, 255); /* Navbar altına ince bir çizgi ekle */
+  z-index: 1000;
+  width: 100%;
+}
+
+.search-input{
+  background-color: #eaedf0;
+  border-radius: 20px;
+  border:none;
+  height: 38px;
+  width: 900px;
+  margin-left: 30px;
+}
+
+.search-input:hover{
+  background-color: #ffffff;
+  border: 1px solid cornflowerblue;
+}
+
+.search-input:active{
+  background-color: #ffffff;
+  border: 1px solid rgb(79, 121, 199);
+}
+
+
+.right-section {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.user-settings-dropdown{
+  margin-left: 70px;
+}
+
+.login-btn{
+  color: white; 
+}
+
+#basic-nav-dropdown{
+  width: 250px;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+#basic-nav-dropdown:hover{
+  background-color: #ffffff;
+  border: 1px solid rgb(226, 222, 222);
+}
+
+.dropdown-toggle::after {
+  float: right;
+  margin-top: 8px;
+}

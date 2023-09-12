@@ -1,0 +1,504 @@
+/* homePage.css */
+.home-page {
+  background-color: #dae0e6; /* Reddit'in gri rengi */
+  min-height: 100vh;
+}
+
+.home-container {
+  max-width: 975px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.home-title {
+  font-size: 36px;
+  color: #ff4500; /* Reddit'in turuncu rengi */
+}
+
+.home-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.login-link {
+  display: block;
+  width: 100px;
+  padding: 10px;
+  background-color: #0079d3; /* Reddit'in mavi rengi */
+  color: #ffffff; /* Beyaz metin */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.login-link:hover {
+  background-color: #005ea3; /* Koyu mavi */
+}
+
+.post-card {
+  background-color: #ffffff; /* Sayfanın arka plan rengi */
+  display: flex;
+  border: 1px solid #cccccc; /* Açık gri çerçeve */
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 0px;
+  max-width: 643px;
+}
+
+.post-card:hover {
+  border: gray 1px solid;
+}
+
+.post-vote {
+  cursor: pointer;
+  color: gray;
+}
+
+.post-vote:hover {
+  color: rgb(245, 141, 4); /* veya istediğiniz başka bir renk */
+  cursor: pointer;
+}
+
+.vote-count {
+  color: #1a1a1b;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  pointer-events: none;
+  word-break: normal;
+}
+
+.post-info {
+  flex: 8;
+  padding: 10px;
+}
+
+/* Yeni stil */
+.post-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: black; /* Siyah renk */
+  display: inline;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+}
+
+.post-content-text {
+  font-family: "Noto Sans", Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.post-content {
+  font-size: 16px;
+}
+
+.post-content-link {
+  font-size: 16px;
+  color: #0079d3; /* Reddit'in mavi rengi */
+  text-decoration: none;
+  margin-top: 5px;
+  display: block; /* Eklendi */
+  margin-right: 0; /* Boşluk kaldırıldı */
+}
+
+.post-content-link:hover {
+  text-decoration: underline;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+  overflow: hidden;
+}
+
+.post-content-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.filter-card {
+  background-color: #ffffff; /* Sayfanın arka plan rengi */
+  display: flex;
+  margin-bottom: 20px;
+  max-width: 643px; /* post-card ile aynı genişlik */
+  border: 1px solid #cccccc; /* Açık gri çerçeve */
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.filter-icon {
+  cursor: pointer;
+  padding: 10px;
+  color: #878a8c;
+  margin-left: 10px;
+}
+
+.filter-icon.active {
+  color: #005ea3;
+  border-radius: 20px;
+  background-color: #edf0f1;
+}
+
+.filter-card :hover {
+  color: #ff4500;
+  border-radius: 20px;
+  background-color: #dfe1e2;
+}
+
+.filter-text {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.post-subreddit .subreddit-img {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; /* Yuvarlak img */
+  overflow: hidden; /* İmgenin dışarı taşan kısımlarını gizler */
+}
+
+.post-subreddit {
+  font-size: 12px;
+  color: #888888; /* Gri metin */
+  margin-bottom: 5px;
+}
+
+.post-subreddit img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Resmi dolduracak şekilde boyutlandırır */
+}
+
+.post-subreddit a {
+  text-decoration: none; /* Link altı çizgiyi kaldır */
+  color: #1c1c1c; /* Siyah renk */
+  display: inline;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  vertical-align: baseline;
+}
+
+.post-subreddit a:hover {
+  text-decoration: underline; /* Üzerine gelince altı çizgi ekleyecek */
+}
+
+.post-info-metadata {
+  display: flex;
+  justify-content: space-between;
+  color: grey; /* Rengi gri yapar */
+  margin-top: -10px;
+  padding: 1px;
+}
+
+.post-info-data:hover {
+  color: #ff4500;
+}
+
+.post-info-data {
+  margin-left: 10px;
+  justify-content: space-between;
+  color: grey; /* Rengi gri yapar */
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.custom-link {
+  text-decoration: none; /* Alt çizgiyi kaldırır */
+  color: #333; /* İstediğiniz rengi kullanabilirsiniz */
+}
+
+.custom-link:hover {
+  text-decoration: underline; /* Alt çizgiyi ekler */
+  color: #333; /* İstediğiniz rengi kullanabilirsiniz */
+}
+
+.sidebar {
+  border: 1px solid #cccccc; /* Açık gri çerçeve */
+  border-radius: 4px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.sidebar-section {
+  width: 310px;
+}
+
+.sidebar-header {
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 8px;
+  margin-top: -23px;
+  width: 310px;
+}
+
+.sidebar span {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 30px;
+  color: black; /* Siyah renk */
+  display: inline;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+}
+
+.sidebar p {
+  padding: 5px;
+  font-family: Noto Sans, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.sidebar-top {
+  width: auto;
+  background-image: url(https://www.redditstatic.com/desktop2x/img/id-cards/home-banner@2x.png);
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  border-radius: 3px 3px 0 0;
+  height: 34px;
+  margin: -12px -12px 10px;
+}
+
+.reddit-logo {
+  border-radius: 50%;
+  background-size: 40px 68px;
+  height: 68px;
+  width: 40px;
+}
+
+.create-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-button {
+  margin-bottom: 10px;
+  background-color: #0079d3;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-family: Noto Sans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: unset;
+  line-height: 17px;
+  text-transform: unset;
+  min-height: 32px;
+  min-width: 32px;
+  padding: 4px 16px;
+}
+
+.create-button:hover {
+  background-color: #005ea3;
+}
+
+.create-community {
+  margin-bottom: 0;
+  background-color: #ffffff;
+  color: #0079d3;
+  border: solid 1px;
+  border-radius: 20px;
+  border-color: #0079d3;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-family: Noto Sans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: unset;
+  line-height: 17px;
+  text-transform: unset;
+  min-height: 32px;
+  min-width: 32px;
+  padding: 4px 16px;
+}
+
+.create-community:hover {
+  background-color: #f0eeee;
+}
+
+.recent-post-img,
+.recent-post-video {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* User post card */
+
+#post-recent-desc {
+  display: inline-block;
+  justify-content: center; /* Yatayda ortala */
+  align-items: center; /* Dikeyde ortala */
+  width: 35px; /* İstenilen genişlik */
+  height: 35px; /* İstenilen yükseklik */
+  padding: 15px;
+  margin-top: -9px;
+}
+
+.recent-post-div {
+  width: 310px;
+}
+
+.post-content:hover {
+  background-color: #e4e3e3;
+}
+
+.recent-posts-section {
+  border: 1px solid #cccccc; /* Açık gri çerçeve */
+  border-radius: 4px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.recent-posts-header {
+  border: 1px solid white;
+  border-radius: 5px 5px 4px 4px;
+  overflow: visible;
+  overflow-wrap: break-word;
+  padding-top: 10px;
+}
+
+.recent-posts-title {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 12px;
+  text-transform: uppercase;
+  padding-bottom: 4px;
+  color: black;
+}
+
+.recent-posts-heading {
+  display: inline;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 12px;
+  text-transform: uppercase;
+  padding-bottom: 4px;
+  color: black;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+}
+
+.recent-post {
+  display: flex;
+  margin-top: 2px;
+  padding: 2px;
+}
+
+.recent-post-image {
+  border-radius: 10px;
+  flex: 0 0 65px;
+  height: 49px;
+  margin-right: 7px;
+  width: 0px;
+}
+
+.recent-post-content {
+  border-radius: 6px;
+  -ms-flex: 1;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  vertical-align: bottom;
+}
+
+.post-link {
+  text-decoration: none;
+  color: black;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+}
+
+.post-link-description {
+  text-decoration: none;
+  color: black;
+}
+
+.post-content {
+  border-radius: 4px;
+  -ms-flex: 1;
+  flex: 1;
+  width: 100%;
+  border: 1px solid;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: transparent;
+  color: #ebe6e6;
+  position: relative;
+}
+
+.recent-post-details {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1;
+  flex: 1;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.recent-post-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #1c1c1c;
+  margin-bottom: 4px;
+  max-height: 36px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+}
+
+.recent-post-metadata {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.recent-post-info {
+  margin-left: 1px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: black;
+  white-space: nowrap;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+}
+
+.search-card:hover {
+  border: 0.6px solid #3a3b3b70;
+}

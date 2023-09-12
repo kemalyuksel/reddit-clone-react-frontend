@@ -1,0 +1,35 @@
+.comment {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .user-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+  
+  .comment-content {
+    margin-right: 30px;
+  }
+  
+  .username {
+    font-size: 12px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .comment-text {
+    font-size: 15px;
+    margin: 5px 0 0;
+  }
+  

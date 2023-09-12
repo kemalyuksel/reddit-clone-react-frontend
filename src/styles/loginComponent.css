@@ -1,0 +1,87 @@
+/* loginComponent.css */
+.login-page {
+  background-color: #FF4500; /* Reddit'in turuncu rengi */
+  height: 100vh; /* Formun yüksekliğini ekran yüksekliğiyle uyumlu yap */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #FFFFFF; /* Beyaz arka plan */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 400px; /* Form genişliğini sabitle */
+  max-height: 550px; /* Form yüksekliğini sabit tut */
+  overflow-y: auto;
+  transition: max-height 0.02s;
+  float: left;
+}
+
+
+.input-error-message {
+  color: red; /* Kırmızı renkte hata mesajı yazıları */
+  font-size: 12px; /* Hata mesajı yazı boyutunu küçült */
+
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #FF4500; /* Reddit'in turuncu rengi */
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #CCCCCC; /* Açık gri çerçeve */
+  border-radius: 4px;
+  width: 360px;
+}
+
+.login-button {
+  padding: 10px 20px;
+  background-color: #0079D3; /* Reddit'in mavi rengi */
+  color: #FFFFFF; /* Beyaz metin */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.register-link {
+  color: #0079D3; /* Reddit'in mavi rengi */
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Linkin üzerine gelindiğinde rengini değiştirelim */
+.register-link:hover {
+  color: #005EA3; /* Koyu mavi */
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 5px;
+}
+
+/* Kırmızı inputlar için stiller */
+.error {
+  margin-bottom: 5px;
+  border: 1px solid red;
+}
+
+/* Başarılı mesajı için stiller */
+.success-message {
+  color: green;
+  
+}

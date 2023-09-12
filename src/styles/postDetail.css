@@ -1,0 +1,171 @@
+/* postDetail.css */
+
+.post-detail-page {
+  background-color: #2e2f30;
+  min-height: 100vh;
+}
+
+.detail-post-section {
+  background-color: #d8e3e2;
+  padding: 20px;
+  min-height: 100vh;
+  margin-left: 20px;
+}
+
+.post-detail-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.post-detail-container:hover {
+  border: 0.5px solid #3a3b3b70;
+}
+
+.detail-community-sidebar {
+  width: 330px;
+  margin-left: -20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.detail-post-subreddit {
+  margin-bottom: 2px;
+  margin-top: -15px;
+  padding: 10px;
+  font-size: 14px;
+  color: #888;
+}
+
+.detail-subreddit-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: -10px;
+}
+
+.detail-post-title {
+  font-size: 20px;
+}
+
+.detail-post-content-text {
+  font-family: Noto Sans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 20px;
+  padding-left: 0, 0, 3.5px;
+  line-height: 22px;
+}
+
+.detail-post-content-link {
+  font-size: 16px;
+  color: #0079d3;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+.detail-post-content-link:hover {
+  text-decoration: underline;
+}
+
+.detail-post-content-image {
+  max-width: 100%;
+  max-height: 500px; /* Adjust the max height as needed */
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 5px;
+}
+
+.detail-post-info-metadata {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #888;
+}
+
+.detail-subreddit-logo {
+  width: 50px; /* Düşürmek istediğiniz genişlik */
+  height: 50px; /* Düşürmek istediğiniz yükseklik */
+  border-radius: 50%;
+}
+
+.detail-subreddit-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.detail-post-info-data:hover {
+  color: #ff4500;
+}
+
+.detail-post-info-data {
+  margin-right: 20px;
+}
+
+.detail-community-sidebar-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detail-join-button {
+  margin-bottom: 10px;
+  background-color: #0079d3;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-family: Noto Sans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: unset;
+  line-height: 17px;
+  text-transform: unset;
+  min-height: 32px;
+  width: 100%;
+  padding: 4px 16px;
+}
+
+.post-header-title {
+  color: white;
+}
+
+.detail-votes {
+  position: fixed;
+  z-index: 1000; /* Gerekirse diğer elemanların üzerine çıkmasını sağlamak için z-index ayarı */
+}
+
+.subreddit-text {
+  font-family: Noto Sans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 20px;
+  padding-left: 0, 0, 3.5px;
+  line-height: 22px;
+}
+
+.detail-subreddit-name {
+  font-size: 16px;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  display: inline-block;
+  padding: 5px;
+  margin-top: 10px;
+}
